@@ -1,13 +1,13 @@
-CREATE EXTERNAL TABLE `student`(
+CREATE EXTERNAL TABLE student(
   `school` string, 
   `country` string, 
   `sex` string, 
   `age` string, 
   `studytime` int, 
   `failures` int, 
-  `nursery` string, 
+  `preschool` string, 
   `higher` string, 
-  `internet` string, 
+  `remotestudy` string, 
   `health` string)
 ROW FORMAT DELIMITED 
   FIELDS TERMINATED BY ',' 
